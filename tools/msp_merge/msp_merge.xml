@@ -1,4 +1,4 @@
-<tool id="msp_merge" name="Merge MSP Spectra" version="0.14.0+galaxy0" license="MIT" profile="23.0">
+<tool id="msp_merge" name="Merge MSP Spectra" version="@TOOL_VERSION@+galaxy@VERSION_SUFFIX@" license="MIT" profile="23.0">
    <creator>
         <person
             givenName="Wudmir"
@@ -15,6 +15,12 @@
             email="GalaxyToolsDevelopmentandDeployment@space.muni.cz"
             name="RECETOX MUNI"/>
     </creator>
+
+    <macros>
+        <token name="@TOOL_VERSION@">0.14.0</token>
+        <token name="@VERSION_SUFFIX@">1</token>
+    </macros>
+
     <description>Merge MSP Spectra files</description>
     <requirements>
          <requirement type="package" version="0.14.0">matchms</requirement>
