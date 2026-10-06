@@ -16,12 +16,13 @@
             name="RECETOX MUNI"/>
     </creator>
 
+    <description>Merge MSP Spectra files</description>
+    
     <macros>
         <token name="@TOOL_VERSION@">0.14.0</token>
         <token name="@VERSION_SUFFIX@">1</token>
     </macros>
 
-    <description>Merge MSP Spectra files</description>
     <requirements>
          <requirement type="package" version="0.14.0">matchms</requirement>
     </requirements>
